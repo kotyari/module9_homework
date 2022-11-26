@@ -1,0 +1,24 @@
+body {
+  font-family: system-ui;
+  background: #f06d06;
+  color: white;
+  text-align: center;
+}
+
+.p_task {
+  background-color: black;
+}
+
+.p_text_error {
+  width: 400px;
+  margin: 0 auto;
+  color: red;
+  text-align:center;
+  background-color: black;
+  border: thick double red;
+}
+
+
+.input_num {
+  margin-bottom: 20px;
+}

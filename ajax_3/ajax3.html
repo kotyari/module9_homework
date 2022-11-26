@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link rel="stylesheet" href="ajax3.css">
+</head>
+<body>
+  <p class="p_task">Напишите код приложения, интерфейс которого представляет собой input и кнопку. В input можно ввести любое число. При клике на кнопку происходит следующее:
+Если число не попадает в диапазон от 1 до 10 — выводить ниже текст «число вне диапазона от 1 до 10».
+Если число попадает в диапазон от 1 до 10 — сделать запрос c помощью XHR по URL https://picsum.photos/v2/list?limit=10, где get-параметр limit — это введённое число.</p>
+  <input class="input_num" id='inp_1' type="number">Введите число от 1 до 10</input>
+  <button class="btn_js" onclick="inputNumber()">Клик</button>
+  <div id="textarea">
+    
+  </div>
+  <div class="imgBox" id="img1">
+  </div>
+  <script src="ajax3.js"></script>
+</body>
+</html>

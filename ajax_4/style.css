@@ -1,0 +1,25 @@
+.input_num {
+  margin: 5px;
+height: 20px;
+}
+.btn_js {
+width: 100px;
+height: 20px;
+margin: 5px;
+background-color: grey;
+color: white;
+}
+.p_task {
+display: flex;
+align-items: center;
+background-color: rgb(161, 243, 198);
+color: black;
+}
+.imgBox {
+width: 100px;
+height: 100px;
+} 
+
+#textarea {
+color: red;
+}
